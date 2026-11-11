@@ -1,0 +1,35 @@
+# Free scheduler for the paper-trading odds collector.
+# In a PUBLIC repo, Actions minutes are free. Scheduled cron can be delayed
+# by several minutes. GitHub pauses scheduled workflows after 60 days with
+# no repo activity; commits from this job count as activity.
+name: odds-collector
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: odds-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # 07_odds_collector.py uses only the Python standard library.
+      - name: Collect odds
+        run: python 07_odds_collector.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDS_SPORT: cricket_big_bash,cricket_odi,cricket_international_t20
+          ODDS_REGIONS: eu
+      - name: Commit log if changed
+        run: |
+          git config user.name "odds-bot"
+          git config user.email "odds-bot@users.noreply.github.com"
+          git add odds_log.csv odds_state.json
+          git diff --cached --quiet || (git commit -m "odds snapshot" && git push)
