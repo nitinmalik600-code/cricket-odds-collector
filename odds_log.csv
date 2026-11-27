@@ -196,3 +196,12 @@ snapshot_utc,kind,sport,event_id,commence_utc,home,away,bookmaker,odds_home,odds
 2026-11-27T07:20:34+00:00,bet,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,betonlineag,2.2,1.71,54
 2026-11-27T07:20:34+00:00,bet,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,matchbook,2.2,1.82,54
 2026-11-27T07:20:34+00:00,bet,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,pinnacle,2.09,1.78,54
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,leovegas_se,2.25,1.65,14
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,unibet_se,2.25,1.65,14
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,betfair_ex_eu,2.34,1.73,14
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,betsson,2.2,1.68,14
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,nordicbet,2.2,1.68,14
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,gtbets,2.08,1.73,14
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,betonlineag,2.3,1.67,14
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,matchbook,2.34,1.73,14
+2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,pinnacle,2.32,1.65,14
