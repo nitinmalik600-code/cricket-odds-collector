@@ -205,3 +205,12 @@ snapshot_utc,kind,sport,event_id,commence_utc,home,away,bookmaker,odds_home,odds
 2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,betonlineag,2.3,1.67,14
 2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,matchbook,2.34,1.73,14
 2026-11-27T08:01:10+00:00,close,cricket_international_t20,0d80ad8d9a13dd3db51a952c7e2d19f4,2026-11-27T08:15:00Z,Australia,England,pinnacle,2.32,1.65,14
+2026-11-28T00:01:11+00:00,open,cricket_big_bash,e0ca315747e3048e5dfa370b7e383c0a,2026-12-12T09:10:00Z,Melbourne Renegades,Perth Scorchers,nordicbet,2.2,1.65,20709
+2026-11-28T00:01:11+00:00,open,cricket_big_bash,354f7c285b74d670261dc358d9591222,2026-12-15T08:15:00Z,Brisbane Heat,Sydney Sixers,nordicbet,2.0,1.8,24974
+2026-11-28T00:01:11+00:00,open,cricket_big_bash,97d05c50a8a0ae29a7c5b46384ab976e,2026-12-16T08:15:00Z,Sydney Thunder,Adelaide Strikers,nordicbet,1.95,1.85,26414
+2026-11-28T00:01:11+00:00,open,cricket_international_t20,c6ad5040eb7d5db1032da7fda936b0e7,2026-11-29T08:15:00Z,Australia,England,leovegas_se,2.2,1.67,1934
+2026-11-28T00:01:11+00:00,open,cricket_international_t20,c6ad5040eb7d5db1032da7fda936b0e7,2026-11-29T08:15:00Z,Australia,England,unibet_se,2.2,1.67,1934
+2026-11-28T00:01:11+00:00,open,cricket_international_t20,c6ad5040eb7d5db1032da7fda936b0e7,2026-11-29T08:15:00Z,Australia,England,betsson,2.1,1.72,1934
+2026-11-28T00:01:11+00:00,open,cricket_international_t20,c6ad5040eb7d5db1032da7fda936b0e7,2026-11-29T08:15:00Z,Australia,England,nordicbet,2.1,1.72,1934
+2026-11-28T00:01:11+00:00,open,cricket_international_t20,c6ad5040eb7d5db1032da7fda936b0e7,2026-11-29T08:15:00Z,Australia,England,betfair_ex_eu,2.28,1.74,1934
+2026-11-28T00:01:11+00:00,open,cricket_international_t20,c6ad5040eb7d5db1032da7fda936b0e7,2026-11-29T08:15:00Z,Australia,England,gtbets,2.1,1.71,1934
